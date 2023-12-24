@@ -1,0 +1,1 @@
+{/backcolor}{font_effect_glow_simple,1}{yellow}永恒{red} 红宝石{/font_effect_glow_simple}{&,1}{white}此宝石蕴含着无穷无尽的 {lime}能量 {white}。{&,1}若是将其镶在你的武器上会发生什么呢？

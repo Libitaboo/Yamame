@@ -1,0 +1,1 @@
+{/backcolor}{font_effect_glow_simple,1}{gray}憋 -我ら龙玉涛と共に憋笑なり-{/font_effect_glow_simple}{&,1}{white}还就{red}辣{white}个急躁

@@ -1,0 +1,1 @@
+{/backcolor}{font_effect_glow_simple,1}{yellow}Eternal{red} Ruby{/font_effect_glow_simple}{&,1}{white}This gem has unlimited {lime}Power {white}.{&,1}What will happen if you inlay it on your weapon?
