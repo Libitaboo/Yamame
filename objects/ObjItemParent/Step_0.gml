@@ -36,11 +36,11 @@ if visible{
 				if _in_inventory{
 					if !place_meeting(x,y,ObjSystemMouse){
 						if !_in_inventory_choose_on{
-							x=lerp(x,_in_inventory_id._pos_x[_in_inventory_x,_in_inventory_y],0.4)
-							y=lerp(y,_in_inventory_id._pos_y[_in_inventory_x,_in_inventory_y],0.4)
+							x=_in_inventory_id._pos_x[_in_inventory_x,_in_inventory_y]
+							y=_in_inventory_id._pos_y[_in_inventory_x,_in_inventory_y]
 						}else{
-							x=lerp(x,ObjSystemMouse.x+_relative_x,0.4)
-							y=lerp(y,ObjSystemMouse.y+_relative_y,0.4)	
+							x=ObjSystemMouse.x+_relative_x
+							y=ObjSystemMouse.y+_relative_y
 						}
 					}else{
 						if mouse_check_button(mb_left){
@@ -48,8 +48,8 @@ if visible{
 							_diff=0
 							if _in_inventory_choose_on{
 								
-								x=lerp(x,ObjSystemMouse.x+_relative_x,0.4)
-								y=lerp(y,ObjSystemMouse.y+_relative_y,0.4)	
+								x=ObjSystemMouse.x+_relative_x
+								y=ObjSystemMouse.y+_relative_y
 							}
 							_temp_x=-1
 							_temp_y=-1
@@ -84,8 +84,8 @@ if visible{
 							}
 						}else{
 							_in_inventory_choose_on=false
-							x=lerp(x,_in_inventory_id._pos_x[_in_inventory_x,_in_inventory_y],0.4)
-							y=lerp(y,_in_inventory_id._pos_y[_in_inventory_x,_in_inventory_y],0.4)
+							x=_in_inventory_id._pos_x[_in_inventory_x,_in_inventory_y]
+							y=_in_inventory_id._pos_y[_in_inventory_x,_in_inventory_y]
 							if _temp_x!=-1 and _temp_x!=_past_x or _temp_x!=-1 and _temp_y!=_past_y{
 								if ds_grid_get(global.inventory,_temp_x,_temp_y)!="empty"{
 									_temp_id=ds_grid_get(_in_inventory_id._inventory_grid_item_id,_temp_x,_temp_y)

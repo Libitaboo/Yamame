@@ -1,0 +1,1 @@
+{/backcolor}{font_effect_glow_simple,1}{aqua}超越思维之眼{/font_effect_glow_simple}{&,1}{yellow}过去{white}，{yellow}现在{white}，{yellow}未来{white}；{&,1}{yellow}存在或不存在的一切{white}，{&,1}从现在起，{&,1}{red}为你所用{white}.

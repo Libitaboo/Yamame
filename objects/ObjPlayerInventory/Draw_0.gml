@@ -30,11 +30,11 @@ if _visible{
 			y+20+_box_size*i+36,1)
 			_pos_x[ii,i]=x+2+_box_size*ii+_bounce-4
 			_pos_y[ii,i]=y+20+_box_size*i+_bounce-4
-			
+			/*
 			draw_set_color(c_red)
 			draw_set_alpha(1)
 			draw_text(_pos_x[ii,i],_pos_y[ii,i],ds_grid_get(global.inventory,ii,i))
-			
+			*/
 			if string(ds_grid_get(_inventory_grid_item_id,ii,i))="0"{
 				ds_grid_set(_inventory_grid_item_id,ii,i,noone)
 			}

@@ -296,12 +296,12 @@ for(_i=1;_i<string_length(string_copy(_text,0,_t))+1;_i++){
     
 	
 	if !_back{
-		if _char_now!="&"{
+		if _char_now!="&" and _char_now!="}" and _char_now!=""{
 			if _back_color_on {
 				draw_set_color(_back_color)
 				draw_set_alpha(1)
 				draw_rectangle(_now_x+_shake_x-4,_now_y+_shake_y-4,
-				_now_x+_shake_x+_char_width+1,_now_y+_shake_y+_char_height+2,0)
+				_now_x+_shake_x+_char_width+3,_now_y+_shake_y+_char_height+2,0)
 			}
 	
 			draw_text_ext_transformed_colour(_now_x+_shake_x,
@@ -317,7 +317,7 @@ for(_i=1;_i<string_length(string_copy(_text,0,_t))+1;_i++){
 					draw_set_color(_back_color)
 					draw_set_alpha(1)
 					draw_rectangle(_now_x+_shake_x-4,_now_y+_shake_y-4,
-					_now_x+_shake_x+_char_width+1,_now_y+_shake_y+_char_height+2,0)
+					_now_x+_shake_x+_char_width+3,_now_y+_shake_y+_char_height+2,0)
 				}
 	
 				draw_text_ext_transformed_colour(_now_x+_shake_x,
