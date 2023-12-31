@@ -3,3 +3,5 @@
 ![](https://img.shields.io/github/stars/Libitaboo/Yamame.svg?style=flat-square ":no-zoom")
 ![](https://img.shields.io/github/license/Libitaboo/Yamame.svg?style=flat-square ":no-zoom")
 # Made with Gamemaker
+A non-commercial touhou fan game.
+Open-sourced.
