@@ -8,6 +8,4 @@ _alpha=0
 _temp_name=""
 _press_cold_down=0
 _inventory_grid_item_id=ds_grid_create(_width,_height)
-ds_grid_set(global.inventory,0,0,"Eternal Ruby")
-ds_grid_set(global.inventory,1,0,"Eternal Ruby")
-ds_grid_set(global.inventory,0,2,"Eternal Ruby")
+ds_grid_set(global.inventory,0,0,"EternalRuby")

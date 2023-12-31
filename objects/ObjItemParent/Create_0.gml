@@ -5,6 +5,13 @@ _in_inventory=false
 _in_inventory_id=noone
 _in_inventory_x=0
 _in_inventory_y=0
+_in_inventory_choose_on=false
+_past_x=0
+_past_y=0
+_temp_x=-1
+_temp_y=-1
+_relative_x=0
+_relative_y=0
 _file=file_text_open_read("texts/"+global.language+"/item_info/"+
 string_insert("info",
 string_copy(

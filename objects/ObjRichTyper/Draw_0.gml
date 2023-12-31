@@ -1,4 +1,6 @@
 _back=false
+_x=x
+_y=y
 _now_x=_x
 _now_y=_y
 _max_char_width=0
